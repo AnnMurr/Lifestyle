@@ -1,0 +1,34 @@
+.hero__image {
+    width: 100%;
+}
+
+.hero__block {
+    display: flex;
+    justify-content: space-between;
+    padding: 74px 0 70px 0;
+}
+
+.hero__heading-wrapper {
+    max-width: 340px;
+    padding-top: 8px;
+}
+
+.hero__info {
+    padding-top: 12px;
+    max-width: 599px;
+    padding-right: 30px;
+}
+
+.hero__text p {
+    font-size: 18px;
+}
+
+.hero__buttons {
+    padding-top: 24px;
+    display: flex;
+    gap: 16px;
+}
+
+.hero__buttons button {
+    max-width: 100px;
+}
