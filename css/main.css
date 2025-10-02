@@ -45,4 +45,8 @@ body {
     .button {
         font-size: 12px;
     }
+
+    .heading {
+        font-size: 32px;
+    }
 }
