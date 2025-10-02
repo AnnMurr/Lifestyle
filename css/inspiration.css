@@ -55,3 +55,34 @@
     display: flex;
     justify-content: center;
 }
+
+@media screen and (max-width: 920px) {
+    .inspiration__cards {
+        flex-wrap: wrap;
+        gap: 40px;
+        justify-content: center;
+    }
+
+    .inspiration__heading-wrapper {
+        padding: 0 0 83px 0;
+        text-align: center;
+    }
+
+    .inspiration-card__title {
+        padding: 10px 0;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .inspiration__wrapper {
+        padding: 90px 0;
+    }
+
+    .inspiration-card__title h5 {
+        font-size: 20px;
+    }
+
+    .inspiration-card__text p {
+        font-size: 14px;
+    }
+}
