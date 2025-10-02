@@ -1,0 +1,73 @@
+.promo {
+    background-color: #F9F8FE;
+}
+
+.promo__wrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+    padding: 111px 0 111px 0;
+}
+
+.promo__block {
+    max-width: 599px;
+    padding-top: 24px;
+}
+
+.promo__label {
+    padding-bottom: 20px;
+}
+
+.promo__label span {
+    font-size: 18px;
+}
+
+.promo__text {
+    padding-top: 20px;
+}
+
+.promo__text p {
+    font-size: 18px;
+    line-height: 160%;
+}
+
+.promo__benefits {
+    display: flex;
+    padding-top: 52px;
+    gap: 11px;
+}
+
+.benefit {
+    max-width: 290px;
+}
+
+.benefit__title {
+    padding-bottom: 18px;
+}
+
+.benefit__title h5 {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 160%;
+}
+
+.benefit__text p {
+    font-size: 16px;
+    line-height: 160%;
+}
+
+.promo__actions {
+    padding-top: 48px;
+    display: flex;
+    gap: 7px;
+}
+
+.promo__button {
+    max-width: 125px;
+    width: 100%;
+}
+
+.promo__image {
+    border-radius: 8px;
+    max-width: 611px;
+}
