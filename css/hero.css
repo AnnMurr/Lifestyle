@@ -11,7 +11,7 @@
 .hero__block {
     display: flex;
     justify-content: space-between;
-    padding: 74px 0 70px 0;
+    padding: 74px 0 80px 0;
 }
 
 .hero__heading-wrapper {
