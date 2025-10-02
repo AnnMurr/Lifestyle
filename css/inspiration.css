@@ -1,0 +1,88 @@
+.inspiration__wrapper {
+    padding: 100px 0;
+}
+
+.inspiration__heading-wrapper {
+    padding: 0 90px 83px 90px;
+    text-align: center;
+}
+
+.inspiration__cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.inspiration-card {
+    max-width: 395px;
+}
+
+.inspiration-card__image-wrapper {
+    width: 100%;
+    height: 222px;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.inspiration-card__image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.inspiration-card__title {
+    padding: 16px 0;
+    text-align: center;
+}
+
+.inspiration-card__title h5 {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 160%;
+}
+
+.inspiration-card__text {
+    padding-bottom: 16px;
+    text-align: center;
+}
+
+.inspiration-card__text p {
+    font-size: 16px;
+    line-height: 160%;
+}
+
+.inspiration-card__button {
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 920px) {
+    .inspiration__cards {
+        flex-wrap: wrap;
+        gap: 40px;
+        justify-content: center;
+    }
+
+    .inspiration__heading-wrapper {
+        padding: 0 0 83px 0;
+        text-align: center;
+    }
+
+    .inspiration-card__title {
+        padding: 10px 0;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .inspiration__wrapper {
+        padding: 90px 0;
+    }
+
+    .inspiration-card__title h5 {
+        font-size: 20px;
+    }
+
+    .inspiration-card__text p {
+        font-size: 14px;
+    }
+}
