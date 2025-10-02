@@ -38,3 +38,33 @@
 .hero__buttons button {
     max-width: 100px;
 }
+
+@media screen and (max-width: 1024px) {
+    .hero__block {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hero__info {
+        padding-right: 0;
+    }
+
+    .hero__buttons {
+        justify-content: center;
+    }
+
+    .hero__text {
+        text-align: center;
+    }
+
+    .hero__heading-wrapper {
+        max-width: 100%;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .hero__text p {
+        font-size: 16px;
+    }
+}
