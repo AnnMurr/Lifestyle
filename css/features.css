@@ -74,3 +74,37 @@
     max-width: 77px;
     width: 100%;
 }
+
+@media screen and (max-width: 920px) {
+    .features__cards {
+        flex-wrap: wrap;
+        gap: 40px;
+        justify-content: center;
+    }
+
+    .feature-card__title {
+        padding: 10px 0 10px 0;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .features__wrapper {
+        padding: 90px 0 90px 0;
+    }
+
+    .features__actions {
+        padding-top: 60px;
+    } 
+
+    .features__text p {
+        font-size: 16px;
+    }
+
+    .card__title h5 {
+        font-size: 20px;
+    }
+
+    .feature-card__text p {
+        font-size: 14px;
+    }
+}
