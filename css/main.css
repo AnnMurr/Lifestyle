@@ -77,6 +77,24 @@ body {
     line-height: 128%;
 }
 
+.subscribe-form {
+    display: flex;
+    gap: 16px;
+}
+
+.subscribe-form__input {
+    padding: 7px 0 7px 16px;
+    border: 1px solid #000;
+    border-radius: 8px;
+    width: 100%;
+}
+
+.subscribe-form__input::placeholder {
+    font-family: "Inter";
+    font-size: 14px;
+    color: #676767;
+}
+
 @media screen and (max-width: 640px) {
     .button {
         font-size: 12px;
