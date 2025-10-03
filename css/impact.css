@@ -1,0 +1,92 @@
+.impact {
+    background-color: #F9F8FE;
+}
+
+.impact__wrapper {
+    padding: 87px 0 92px 0;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.impact__block {
+    max-width: 599px;
+}
+
+.impact__text {
+    padding-top: 16px;
+}
+
+.impact__text p {
+    font-size: 18px;
+    line-height: 160%;
+}
+
+.impact__stats {
+    display: flex;
+    padding-top: 40px;
+    gap: 16px;
+}
+
+.stat {
+    max-width: 291px;
+}
+
+.stat__value h2 {
+    font-size: 52px;
+    font-weight: 600;
+    line-height: 160%;
+}
+
+.stat__description {
+    padding-top: 6px;
+}
+
+.stat__description p {
+    font-size: 16px;
+    line-height: 160%;
+}
+
+.impact__actions {
+    display: flex;
+    gap: 8px;
+    padding-top: 48px;
+}
+
+.impact__image-wrapper {
+    padding-top: 15px;
+}
+
+.impact__image {
+    max-width: 601px;
+}
+
+@media screen and (max-width: 1250px) {
+    .impact__image-wrapper {
+        padding-top: 80px;
+    }
+}
+
+@media screen and (max-width: 1120px) {
+    .impact__image-wrapper {
+        display: none;
+    }
+
+    .impact__block {
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .stat__description p {
+        font-size: 14px;
+    }
+
+    .impact__text p {
+        font-size: 16px;
+    }
+
+    .stat__value h2 {
+        font-size: 32px;
+    }
+}
