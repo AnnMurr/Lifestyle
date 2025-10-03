@@ -50,6 +50,7 @@
     justify-content: space-between;
     max-width: 600px;
     width: 100%;
+    flex-wrap: wrap;
 }
 
 .footer-column {
@@ -70,7 +71,7 @@
 .footer-column__list {
     display: flex;
     flex-direction: column;
-    gap: 18px;
+    gap: 16px;
 }
 
 .footer-column:last-child {
@@ -79,10 +80,41 @@
 
 .footer-column__item a {
     display: flex;
-    gap: 2px;
+    gap: 6px;
+    line-height: 160%;
 }
 
 .footer .subscribe-form__button {
     max-width: 117px;
     width: 100%;
+}
+
+@media screen and (max-width: 1024px) {
+    .footer__wrapper {
+        flex-direction: column;
+        align-items: center;
+        gap: 60px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .footer__logo h3 {
+        font-size: 25px;
+    }
+
+    .footer__text p {
+        font-size: 16px;
+    }
+
+    .footer-column__title h5 {
+        font-size: 20px;
+    }
+
+    .footer__wrapper {
+        padding: 90px 0;
+    }
+
+    .footer__nav {
+        gap: 40px;
+    }
 }
