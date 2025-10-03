@@ -60,3 +60,33 @@
 .impact__image {
     max-width: 601px;
 }
+
+@media screen and (max-width: 1250px) {
+    .impact__image-wrapper {
+        padding-top: 80px;
+    }
+}
+
+@media screen and (max-width: 1120px) {
+    .impact__image-wrapper {
+        display: none;
+    }
+
+    .impact__block {
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .stat__description p {
+        font-size: 14px;
+    }
+
+    .impact__text p {
+        font-size: 16px;
+    }
+
+    .stat__value h2 {
+        font-size: 32px;
+    }
+}
