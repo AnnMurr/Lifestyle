@@ -32,7 +32,7 @@
     max-width: 291px;
 }
 
-.stat__value h2 {
+.stat__value h3 {
     font-size: 52px;
     font-weight: 600;
     line-height: 160%;
@@ -86,7 +86,7 @@
         font-size: 16px;
     }
 
-    .stat__value h2 {
+    .stat__value h3 {
         font-size: 32px;
     }
 }

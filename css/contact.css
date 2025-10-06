@@ -8,15 +8,6 @@
     justify-content: space-between;
 }
 
-.contact__label {
-    padding-bottom: 20px;
-}
-
-.contact__label span {
-    font-size: 18px;
-    line-height: 150%;
-}
-
 .contact__text {
     padding: 16px 0 48px 0;
 }
@@ -45,7 +36,7 @@
     padding: 11px 0 11px 0;
 }
 
-.contact-info__title h5 {
+.contact-info__title h3 {
     font-size: 22px;
     font-weight: 600;
     line-height: 160%;
@@ -104,7 +95,7 @@
         font-size: 16px;
     }
 
-    .contact-info__title h5 {
+    .contact-info__title h3 {
         font-size: 20px;
     }
 

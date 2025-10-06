@@ -7,7 +7,7 @@
     padding: 16px 0 48px 0;
 }
 
-.subscribe__subtitle h5 {
+.subscribe__subtitle h3 {
     font-size: 18px;
     font-weight: 400;
     line-height: 160%;
@@ -34,7 +34,7 @@
 }
 
 @media screen and (max-width: 640px) {
-    .subscribe__subtitle h5 {
+    .subscribe__subtitle h3 {
         font-size: 16px;
     }
 

@@ -7,15 +7,6 @@
     max-width: 848px;
 }
 
-.features__label {
-    padding-bottom: 22px;
-}
-
-.features__label span {
-    font-size: 18px;
-    line-height: 150%;
-}
-
 .features__text {
     padding-top: 21px;
 }
@@ -53,7 +44,7 @@
     padding: 20px 0 18px 0;
 }
 
-.feature-card__title h5 {
+.feature-card__title h3 {
     font-size: 22px;
     font-weight: 600;
     line-height: 160%;
@@ -100,7 +91,7 @@
         font-size: 16px;
     }
 
-    .card__title h5 {
+    .card__title h3 {
         font-size: 20px;
     }
 

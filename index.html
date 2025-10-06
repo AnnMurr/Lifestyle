@@ -3,29 +3,27 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>LifeStyle</title>
+
+    <meta
+      name="description"
+      content="LifeBlend Hub — your source for health, productivity, and lifestyle inspiration. Explore tips, tools, and stories for a balanced life."
+    />
+    <meta
+      name="keywords"
+      content="health, productivity, lifestyle, inspiration, personal growth, wellness, LifeBlend Hub"
+    />
+    <meta name="author" content="LifeBlend Hub" />
+    <meta name="robots" content="index, follow" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Montserrat:wght@700&family=Poppins:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-    />
-    <link rel="stylesheet" href="./css/reset.css" />
-    <link rel="stylesheet" href="./css/header.css" />
-    <link rel="stylesheet" href="./css/main.css" />
-    <link rel="stylesheet" href="./css/hero.css" />
-    <link rel="stylesheet" href="./css/promo.css" />
-    <link rel="stylesheet" href="./css/features.css" />
-    <link rel="stylesheet" href="./css/balance.css" />
-    <link rel="stylesheet" href="./css/inspiration.css" />
-    <link rel="stylesheet" href="./css/impact.css" />
-    <link rel="stylesheet" href="./css/subscribe.css" />
-    <link rel="stylesheet" href="./css/contact.css" />
-    <link rel="stylesheet" href="./css/footer.css" />
-    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
     <header class="header">
@@ -34,16 +32,16 @@
           <nav class="menu">
             <ul class="menu__list">
               <li class="menu__item">
-                <a class="menu__link" href="#"> Discover LifeBlend </a>
+                <a class="menu__link" href="#promo"> Discover LifeBlend </a>
               </li>
               <li class="menu__item">
-                <a class="menu__link" href="#"> Explore </a>
+                <a class="menu__link" href="#features"> Explore </a>
               </li>
               <li class="menu__item">
-                <a class="menu__link" href="#"> Inspiration </a>
+                <a class="menu__link" href="#inspiration"> Inspiration </a>
               </li>
               <li class="menu__item">
-                <a class="menu__link" href="#"> Contact us </a>
+                <a class="menu__link" href="#contact"> Contact us </a>
               </li>
             </ul>
           </nav>
@@ -84,11 +82,11 @@
         </div>
       </div>
     </section>
-    <section class="promo">
+    <section id="promo" class="promo">
       <div class="container">
         <div class="promo__wrapper">
           <div class="promo__block">
-            <div class="promo__label">
+            <div class="label">
               <span> Revolutionize </span>
             </div>
             <div>
@@ -136,7 +134,9 @@
               </div>
               <a href="#" class="button button_square">
                 <span class="button__text">Sign Up</span>
-                <span class="button__icon"> </span>
+                <span class="button__icon">
+                  <img src="./images/icons/arrow.svg" alt="arrow icon" />
+                </span>
               </a>
             </div>
           </div>
@@ -150,11 +150,11 @@
         </div>
       </div>
     </section>
-    <section class="features">
+    <section id="features" class="features">
       <div class="container">
         <div class="features__wrapper">
           <div class="features__header">
-            <div class="features__label">
+            <div class="label">
               <span>Discover</span>
             </div>
             <div>
@@ -173,13 +173,14 @@
             <li class="feature-card">
               <div class="feature-card__image-wrapper">
                 <img
+                  loading="lazy"
                   class="feature-card__image"
                   src="./images/feature-image-1.png"
                   alt="running road"
                 />
               </div>
               <div class="feature-card__title">
-                <h5>Health and Wellness</h5>
+                <h3>Health and Wellness</h3>
               </div>
               <div class="feature-card__text">
                 <p>
@@ -191,13 +192,14 @@
             <li class="feature-card">
               <div class="feature-card__image-wrapper">
                 <img
+                  loading="lazy"
                   class="feature-card__image"
                   src="./images/feature-image-2.png"
                   alt="basketball hoop"
                 />
               </div>
               <div class="feature-card__title">
-                <h5>Boost Your Productivity</h5>
+                <h3>Boost Your Productivity</h3>
               </div>
               <div class="feature-card__text">
                 <p>
@@ -209,13 +211,14 @@
             <li class="feature-card">
               <div class="feature-card__image-wrapper">
                 <img
+                  loading="lazy"
                   class="feature-card__image"
                   src="./images/feature-image-3.png"
                   alt="surface on a basketball court"
                 />
               </div>
               <div class="feature-card__title">
-                <h5>Find Joy in Leisure</h5>
+                <h3>Find Joy in Leisure</h3>
               </div>
               <div class="feature-card__text">
                 <p>
@@ -236,7 +239,9 @@
             </div>
             <a href="#" class="button button_square">
               <span class="button__text">Learn more</span>
-              <span class="button__icon"> </span>
+              <span class="button__icon">
+                <img src="./images/icons/arrow.svg" alt="arrow icon" />
+              </span>
             </a>
           </div>
         </div>
@@ -246,7 +251,7 @@
       <div class="container">
         <div class="balance__wrapper">
           <div class="balance__block">
-            <div class="balance__label">
+            <div class="label">
               <span>Discover</span>
             </div>
             <div class="balance__heading-wrapper">
@@ -274,12 +279,15 @@
               </div>
               <a href="#" class="button button_square">
                 <span class="button__text">Sign Up</span>
-                <span class="button__icon"> </span>
+                <span class="button__icon">
+                  <img src="./images/icons/arrow.svg" alt="arrow icon" />
+                </span>
               </a>
             </div>
           </div>
           <div class="balance__image-wrapper">
             <img
+              loading="lazy"
               class="balance__image"
               src="./images/balance-image.png"
               alt="A man is riding a bicycle"
@@ -288,7 +296,7 @@
         </div>
       </div>
     </section>
-    <section class="inspiration">
+    <section id="inspiration" class="inspiration">
       <div class="container">
         <div class="inspiration__wrapper">
           <div class="inspiration__heading-wrapper">
@@ -300,16 +308,17 @@
             <li class="inspiration-card">
               <div class="inspiration-card__image-wrapper">
                 <img
+                  loading="lazy"
                   class="inspiration-card__image"
                   src="./images/inspiration-card-image-1.png"
                   alt="surface on a basketball court"
                 />
               </div>
               <div class="inspiration-card__title">
-                <h5>
+                <h3>
                   Unlock Your Full Potential with LifeBlend Hub's Comprehensive
                   Content
-                </h5>
+                </h3>
               </div>
               <div class="inspiration-card__text">
                 <p>
@@ -320,23 +329,26 @@
               <div class="inspiration-card__button">
                 <a href="#" class="button button_square">
                   <span class="button__text">Explore</span>
-                  <span class="button__icon"> </span>
+                  <span class="button__icon">
+                    <img src="./images/icons/arrow.svg" alt="arrow icon" />
+                  </span>
                 </a>
               </div>
             </li>
             <li class="inspiration-card">
               <div class="inspiration-card__image-wrapper">
                 <img
+                  loading="lazy"
                   class="inspiration-card__image"
                   src="./images/inspiration-card-image-2.png"
                   alt="surface on a basketball court"
                 />
               </div>
               <div class="inspiration-card__title">
-                <h5>
+                <h3>
                   Stay Informed and Inspired with LifeBlend Hub's Diverse
                   Content Content
-                </h5>
+                </h3>
               </div>
               <div class="inspiration-card__text">
                 <p>
@@ -347,23 +359,26 @@
               <div class="inspiration-card__button">
                 <a href="#" class="button button_square">
                   <span class="button__text">Discover</span>
-                  <span class="button__icon"> </span>
+                  <span class="button__icon">
+                    <img src="./images/icons/arrow.svg" alt="arrow icon" />
+                  </span>
                 </a>
               </div>
             </li>
             <li class="inspiration-card">
               <div class="inspiration-card__image-wrapper">
                 <img
+                  loading="lazy"
                   class="inspiration-card__image"
                   src="./images/inspiration-card-image-3.png"
                   alt="surface on a basketball court"
                 />
               </div>
               <div class="inspiration-card__title">
-                <h5>
+                <h3>
                   Transform Your Lifestyle with LifeBlend Hub's Expertly Curated
                   Resources
-                </h5>
+                </h3>
               </div>
               <div class="inspiration-card__text">
                 <p>
@@ -374,7 +389,9 @@
               <div class="inspiration-card__button">
                 <a href="#" class="button button_square">
                   <span class="button__text">Get Started</span>
-                  <span class="button__icon"> </span>
+                  <span class="button__icon">
+                    <img src="./images/icons/arrow.svg" alt="arrow icon" />
+                  </span>
                 </a>
               </div>
             </li>
@@ -402,7 +419,7 @@
             <div class="impact__stats">
               <div class="stat">
                 <div class="stat__value">
-                  <h2>50%</h2>
+                  <h3>50%</h3>
                 </div>
                 <div class="stat__description">
                   <p>
@@ -413,7 +430,7 @@
               </div>
               <div class="stat">
                 <div class="stat__value">
-                  <h2>50%</h2>
+                  <h3>50%</h3>
                 </div>
                 <div class="stat__description">
                   <p>
@@ -433,12 +450,15 @@
               </div>
               <a href="#" class="button button_square">
                 <span class="button__text">Sign Up</span>
-                <span class="button__icon"> </span>
+                <span class="button__icon">
+                  <img src="./images/icons/arrow.svg" alt="arrow icon" />
+                </span>
               </a>
             </div>
           </div>
           <div class="impact__image-wrapper">
             <img
+              loading="lazy"
               class="impact__image"
               src="./images/impact-image.png"
               alt="Two people running on a wooden boardwalk"
@@ -454,13 +474,14 @@
             <h2 class="heading">Get the Latest LifeBlend Updates</h2>
           </div>
           <div class="subscribe__subtitle">
-            <h5>
+            <h3>
               Subscribe to our newsletter for regular updates on lifestyle
               trends and tips.
-            </h5>
+            </h3>
           </div>
           <form class="subscribe-form">
             <input
+              aria-label="Your email"
               class="subscribe-form__input"
               type="email"
               placeholder="Enter your email"
@@ -477,11 +498,11 @@
         </div>
       </div>
     </section>
-    <section class="contact">
+    <section id="contact" class="contact">
       <div class="container">
         <div class="contact__wrapper">
           <div>
-            <div class="contact__label">
+            <div class="label">
               <span>Connect</span>
             </div>
             <div>
@@ -496,7 +517,7 @@
                   <img src="./images/icons/mail.svg" alt="mail icon" />
                 </div>
                 <div class="contact-info__title">
-                  <h5>Email</h5>
+                  <h3>Email</h3>
                 </div>
                 <div class="contact-info__text">
                   <span>Send us an email</span>
@@ -512,7 +533,7 @@
                   <img src="./images/icons/phone.svg" alt="phone icon" />
                 </div>
                 <div class="contact-info__title">
-                  <h5>Phone</h5>
+                  <h3>Phone</h3>
                 </div>
                 <div class="contact-info__text">
                   <span>Give us a call</span>
@@ -526,7 +547,7 @@
                   <img src="./images/icons/geo.svg" alt="geo icon" />
                 </div>
                 <div class="contact-info__title">
-                  <h5>Office</h5>
+                  <h3>Office</h3>
                 </div>
                 <div class="contact-info__text">
                   <span>123 Main St, Anytown, USA</span>
@@ -534,14 +555,20 @@
                 <div class="contact-info__link">
                   <a href="#" class="button button_square">
                     <span class="button__text">Get Directions</span>
-                    <span class="button__icon"> </span>
+                    <span class="button__icon">
+                      <img src="./images/icons/arrow.svg" alt="arrow icon" />
+                    </span>
                   </a>
                 </div>
               </li>
             </ul>
           </div>
           <div class="contact__image-wrapper">
-            <img src="./images/contact-image.png" alt="tennis ball" />
+            <img
+              loading="lazy"
+              src="./images/contact-image.png"
+              alt="tennis ball"
+            />
           </div>
         </div>
       </div>
@@ -561,6 +588,7 @@
             </div>
             <form class="subscribe-form">
               <input
+                aria-label="Your email"
                 class="subscribe-form__input"
                 type="email"
                 placeholder="Your email"
@@ -581,7 +609,7 @@
           <div class="footer__nav">
             <div class="footer-column">
               <div class="footer-column__title">
-                <h5>Column one</h5>
+                <h4>Column one</h4>
               </div>
               <ul class="footer-column__list">
                 <li class="footer-column__item">
@@ -603,7 +631,7 @@
             </div>
             <div class="footer-column">
               <div class="footer-column__title">
-                <h5>Column two</h5>
+                <h4>Column two</h4>
               </div>
               <ul class="footer-column__list">
                 <li class="footer-column__item">
@@ -625,7 +653,7 @@
             </div>
             <div class="footer-column">
               <div class="footer-column__title">
-                <h5>Follow us</h5>
+                <h4>Follow us</h4>
               </div>
               <ul class="footer-column__list">
                 <li class="footer-column__item">
